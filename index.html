@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -12,8 +12,10 @@
     <title>Meal Generator V1.0</title>
 </head>
 <body id="demo">
-    <div id="topper">
-    <select name="num" id="days">
+    <div class="background">
+    <div id="top">
+        <button id="gen" type="button" class="btn btn-success">Generate Meal Plan</button>
+    <select name="num" id="days" class="form-control form-control-lg">
         <option value="" disabled selected>Number of Days</option>
         <option value="1">1</option>
         <option value="2">2</option>
@@ -22,15 +24,7 @@
         <option value="5">5</option>
         <option value="6">6</option>
         <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
     </select>
-    <button id="gen">Generate</button>
 </div>
 <div id="container">
     <h1>Meal Plan</h1>
@@ -38,10 +32,10 @@
     </ul>
 </div>
 <div id="bottom">
-    <input id="new" type="text" placeholder="New Meal">
+    <input class="form-control form-control-lg" id="new" type="text" placeholder="Add a New Meal Idea">
   
 </div>
-
+</div>
 <script src="app.js"></script>
 </body>
 </html>

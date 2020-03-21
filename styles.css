@@ -1,4 +1,13 @@
-#topper {
+#demo {
+	background-color: #74c3e2;
+}
+.background {
+	background-color: #f7f7f7;
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+#top {
 	width: 360px;
 	margin: 100px auto;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -16,6 +25,9 @@
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 	background-color: #f7f7f7;
 }
-#new {
-	align-items: center;
+#gen {
+	width: 360px;
+}
+ul {
+	font-size: 20px;
 }
