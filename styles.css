@@ -1,0 +1,21 @@
+#topper {
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	background-color: #f7f7f7;
+}
+#container {
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	background-color: #f7f7f7;
+}
+#bottom {
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	background-color: #f7f7f7;
+}
+#new {
+	align-items: center;
+}
